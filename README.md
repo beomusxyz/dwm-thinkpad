@@ -1,7 +1,7 @@
 # dwm
 
 dwm is an extremely fast, small, and dynamic window manager for X. 
-
+This particular fork of dwm, is an adaptation of my normal dwm fork, but specifically configured for the Lenovo ThinkPad X230.
 ![example_screenshot](example-desktop.jpg)
 
 ## Configuring dwm
