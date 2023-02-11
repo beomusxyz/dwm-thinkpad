@@ -101,7 +101,7 @@ static Key keys[] = {
 	{ 0,			XF86XK_AudioPlay,		spawn,	   SHCMD("mpc toggle") },
 	{ 0,			XF86XK_AudioNext,		spawn,	   SHCMD("mpc next") },
 	{ 0,			XF86XK_AudioPrev,		spawn,	   SHCMD("mpc prev") },
-	{ 0,			XK_Insert, spawn,	   	SHCMD("xdotool type $(grep -v '^#' ~/.local/share/bookmarks/bookmarks.txt | dmenu -i -l 50 | cut -d' ' -f1)") },
+	{ MODKEY,		XK_Insert, spawn,	   	SHCMD("xdotool type $(grep -v '^#' ~/.local/share/bookmarks/bookmarks.txt | dmenu -i -l 50 | cut -d' ' -f1)") },
 //long ass entries end
 
 	{ MODKEY|ShiftMask,		XK_a,	   spawn,	   {.v = (const char*[]){"bookmarkthis", "NULL"} } },
