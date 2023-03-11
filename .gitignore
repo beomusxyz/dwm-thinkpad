@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Patch originals
+*.orig
+
 # Object files
 *.o
 *.ko

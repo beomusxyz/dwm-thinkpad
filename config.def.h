@@ -15,6 +15,7 @@ static const char col_gray1[]		= "#222222";
 static const char col_gray2[]		= "#444444";
 static const char col_gray3[]		= "#bbbbbb";
 static const char col_gray4[]		= "#eeeeee";
+static const char col_cyan[]        	= "#005577";
 static const char col_StratoRed[]	= "#b63c55";
 
 static const char *colors[][3]      = {
@@ -136,6 +137,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY|ShiftMask,		XK_r,      quit,           {1} }, 
 };
 
 /* button definitions */
